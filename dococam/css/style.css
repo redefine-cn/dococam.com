@@ -1,0 +1,277 @@
+/*全局样式*/
+body{
+	background: #000000;
+	font-family: 'Microsoft yahei';
+	box-sizing:border-box;
+}
+.wrap{
+	width: 80%;
+	margin: 0 auto;
+}
+/*导航部分*/
+header{
+	color: #FFFFFF;
+	border-bottom:5px solid #404040;
+}
+.nav-right{
+	margin: 60px 0 15px 0;
+	float: right;
+}
+.nav-right div{
+    float: left;
+    width: 30%;
+    padding:5px;
+    text-align: center;
+	border:2px solid #FFFFFF;
+}
+.nav-right div a{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+div.home{
+	padding:3px 5px;
+}
+/*banner*/
+.banner img{
+	max-width: 100%;
+}
+/*main*/
+.logo{
+	max-width: 100%;
+}
+.decoration-text{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.decoration-text p{
+	margin-bottom: 40px;
+	color: #FFFFFF;
+}
+.intro{
+	font-size: 21px;
+	line-height: 36px;
+}
+.but,.join{
+	font-size: 26px;
+}
+.decoration-text p.old{
+	color:#FFEDCA;
+	font-size: 26px;
+	margin:0;
+	line-height: 50px;
+}
+.decoration-text p.say-three{
+	color: #C00000;
+	font-size: 32px;
+	line-height: 60px;
+	margin-top: 40px;
+}
+.decoration-text div.function{
+	height: 36px;
+	margin-bottom: 0;
+}
+.function{
+	width: 100%;
+}
+.function span{
+	color: #FFFFFF;
+	font-family: 'Microsoft yahei';
+	font-size: 21px;
+	line-height: 36px;
+	float: left;
+	
+}
+.square{
+	display: block;
+	border-width: 10px 5px;
+	border-style: solid;
+	border-color: #FF0000;
+	margin: 8px 5px 0 5px;
+}
+.function-list{
+	font-size: 21px;
+	line-height: 36px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+.decoration-text p.join{
+	margin: 0;
+	line-height: 50px;
+}
+.download{
+	margin:40px 20px 40px 0;
+	float: left;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.download img{
+	float: left;
+}
+.down{
+	margin-top: 40px;
+	max-width: 100%;
+}
+.qr{
+	display: none;
+	position: relative;
+	max-width: 100%;
+	top: 0;
+	right: 0;
+}
+/*模板展示占位*/
+.templet{
+	margin-top: 30px;
+	max-width: 100%;
+	border-left: 5px solid #FF0000;
+	padding: 0 10px;
+}
+/*联系我们*/
+.contact{
+	margin-top: 150px;
+	padding-left: 50px;
+}
+.cloud-atlas img{
+	max-width: 100%;
+}
+.contact-detail p{
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 30px;
+}
+
+/*页脚*/
+.foot{
+	font-family: "SimSun";
+	color: #FFFFFF;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 100px;
+	border-top: 5px solid #404040;
+	padding-top: 30px;
+}
+.foot p span{
+	margin-left: 20px;
+}
+
+
+/*响应式*/
+@media(min-width: 441px) and (max-width: 850px){
+	/*导航部分*/
+	.nav-right div a{
+		color: #FFFFFF;
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+@media(max-width: 440px){
+	
+	/*导航部分*/
+	header{
+		color: #FFFFFF;
+		border-bottom:5px solid #404040;
+	}
+	.title{
+		padding: 5px 15px;
+	}
+	.nav-right{
+		margin: 30px 0 15px 0;
+		float: left;
+	}
+	.nav-right div{
+	    float: left;
+	    width: 30%;
+	    height: 110px;
+	    padding:5px;
+	    text-align: center;
+		border:2px solid #FFFFFF;
+	}
+	.nav-right div a{
+		color: #FFFFFF;
+		font-size: 18px;
+	}
+	div.home{
+		
+		vertical-align: middle;
+	}
+	/*main*/
+	.logo{
+		max-width: 50%;
+	}
+	.intro{
+		font-size: 14px;
+		line-height: 29px;
+	}
+	.but,.join{
+		font-size: 19px;
+	}
+	.decoration-text p.old{
+		color:#FFEDCA;
+		font-size: 19px;
+		margin:0;
+		line-height: 40px;
+	}
+	.decoration-text p.say-three{
+		color: #C00000;
+		font-size: 25px;
+		line-height: 50px;
+		margin-top: 40px;
+	}
+	.decoration-text p.function{
+		font-size: 14px;
+		line-height: 28px;
+		margin-bottom: 0;
+	}
+	.function-list{
+		font-size: 14px;
+		line-height: 36px;
+		color: #FFFFFF;
+		margin-bottom: 40px;
+	}
+	.decoration-text p.join{
+		margin: 0;
+		line-height: 40px;
+	}
+	.download{
+		margin:40px 20px 40px 0;
+		float: left;
+		width: 100%;
+		height: 180px;
+		position: relative;
+	}
+	.down{
+		margin-top: 40px;
+		max-width: 100%;
+	}
+	.qr{
+		display: none;
+		position: relative;
+		max-width: 50%;
+		top: 10;
+		left: 30px;
+	}
+	/*联系我们*/
+	.contact-detail p{
+		margin-top: 10px;
+		color: #FFFFFF;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	/*页脚*/
+	.foot{
+		font-family: "SimSun";
+		color: #FFFFFF;
+		font-size: 16px;
+		text-align: center;
+		margin-top: 100px;
+		border-top: 5px solid #404040;
+		padding-top: 30px;
+	}
+	.foot p span{
+		margin-left: 20px;
+	}
+
+	
+}
